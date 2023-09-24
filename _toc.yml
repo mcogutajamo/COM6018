@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+format: jb-book
+root: intro
+parts:
+  - caption: Course Notes
+    chapters:
+      - file: materials/tutorials/000_Introduction.ipynb
+      - file: materials/tutorials/010_Introducing_Python.ipynb
+      - file: materials/tutorials/015_Further_Python.ipynb
+  - caption: Lab Classes
+    chapters:
+      - file: materials/labs/000_Welcome.ipynb
+      - file: materials/labs/010_python_intro.ipynb
+  - caption: Solutions
+    chapters:
+      - file: materials/solutions/000_Welcome.ipynb

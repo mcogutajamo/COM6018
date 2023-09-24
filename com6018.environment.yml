@@ -1,0 +1,16 @@
+name: com6018
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - ipykernel
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - numpy
+  - docopt
+  - xlrd
+  - basemap-data-hires
+prefix: /opt/homebrew/anaconda3/envs/com6018
