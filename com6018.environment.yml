@@ -3,14 +3,16 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11
-  - pandas
-  - ipykernel
-  - scikit-learn
-  - seaborn
-  - matplotlib
   - numpy
-  - docopt
-  - xlrd
+  - scikit-learn
   - basemap-data-hires
-prefix: /opt/homebrew/anaconda3/envs/com6018
+  - xlrd
+  - ipykernel
+  - matplotlib
+  - pandas
+  - docopt
+  - seaborn
+  - python=3.11
+  - notebook
+  - nb_conda_kernels
+  - jupyter_contrib_nbextensions
